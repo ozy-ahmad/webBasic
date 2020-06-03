@@ -46,7 +46,7 @@ footer {
   background-color: #00a2c6;
   text-align: center;
   font-weight: bold;
-  clear: left;
+  clear: both;
 }
 .featured-image {
   width: 100%;
@@ -83,10 +83,8 @@ aside {
 }
 @media screen and (max-width: 1000px) {
   #content,
-  aside,
-  footer {
+  aside {
     width: 100%;
     padding: 0;
-    display: inline-block;
   }
 }
